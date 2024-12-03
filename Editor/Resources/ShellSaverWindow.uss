@@ -1,0 +1,42 @@
+#Title {
+    font-size: 30px;
+    -unity-font-style: bold;
+    height: 50px;
+    flex-shrink: 0;
+    -unity-text-align: middle-center;
+    color: rgb(205, 214, 244);
+    background-color: rgb(30, 30, 46);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#ScrollView {
+    flex-grow: 1;
+}
+
+#ButtonContainer {
+    flex-direction: row;
+    height: 50px;
+    flex-shrink: 0;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: rgb(180, 190, 254);
+    height: 100%;
+    width: 30%;
+    align-self: center;
+    margin-top: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    -unity-font-style: bold;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(30, 30, 46);
+}

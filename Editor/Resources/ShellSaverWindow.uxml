@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Shell%20Saver/Editor/Resources/ShellSaverWindow.uss?fileID=7433441132597879392&amp;guid=49fc063c984e64c4d80abc8b1659d7ce&amp;type=3#ShellSaverWindow" />
+    <engine:Label text="Shell Saver Editor" name="Title" />
+    <engine:VisualElement name="ButtonContainer">
+        <engine:Button text="Refresh" name="RefreshButton" class="button" />
+        <engine:Button text="Open Path" name="OpenPathButton" class="button" />
+    </engine:VisualElement>
+    <engine:ScrollView name="ScrollView" style="flex-shrink: 0;" />
+</engine:UXML>
